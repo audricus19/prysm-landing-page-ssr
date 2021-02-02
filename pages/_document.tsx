@@ -4,7 +4,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en-US">
-        <Head />
+        <Head>
+          <title>Prysm</title>
+        </Head>
         <body>
           <Main />
           <NextScript />
