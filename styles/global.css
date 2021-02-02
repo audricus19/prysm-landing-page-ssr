@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Monument Grotesk';
+  src: local('Monument Grotesk Regular'), local('Monument-Grotesk-Regular'),
+      url('./fonts/MonumentGrotesk-Regular.woff2') format('woff2'),
+      url('./fonts/MonumentGrotesk-Regular.woff') format('woff'),
+      url('./fonts/MonumentGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
